@@ -122,6 +122,10 @@ a {
     padding-top: 100px;
 }
 
+.pt-80 {
+    padding-top: 80px;
+}
+
 .pt-70 {
     padding-top: 70px;
 }
@@ -617,4 +621,146 @@ a {
 
 .footer-area {
     background: #172125;
+}
+
+.social-text p {
+    padding: 30px 0;
+    line-height: 22px;
+    color: #bec1c3;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.social-text a {
+    color: #40c0cb;
+    font-size: 18px;
+    padding: 35px 0;
+    display: inline-block;
+}
+.social-icon {
+    width: 100%;
+    display: flex;
+    margin-bottom: 45px;
+}
+.social-icon i {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 50%;
+    background: #657273;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-text>span {
+    display: block;
+    color: #fff;
+    font-size: 10px;
+}
+
+.social-text span strong {
+    color: #00a8b6;
+}
+
+.social-text h1 {
+    font-family: 'Script MT';
+    display: inline-block;
+    color: #fff;
+    font-size: 36px;
+}
+
+.social-text h1 span {
+    color: #00a8b6;
+}
+.footer-title h2 {
+    color: #fefefe;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.footer-sm-blog {
+    display: flex;
+    margin-bottom: 15px;
+}
+.footer-blog-img {
+    margin-right: 12px;
+
+}
+.footer-blog-img img {
+    width: 90px;
+    height: 90px;
+}
+
+.sm-blog-text p {
+    color: #fefefe;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.sm-blog-text span {
+    color: #40c0cb;
+    font-size: 15px;
+}
+
+.tag-row span {
+    width: 45%;
+    background: #657273;
+    font-size: 16px;
+    color: #e0e3e3;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 2px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.tag-row {
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    margin-top: 25px;
+    color: #fff;
+}
+
+.footer-link p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.footer-link p span {
+    color: #00a8b6;
+}
+
+.widget-img img {
+    width: 32%;
+}
+
+.swiper {
+    padding: 25px 0;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    color: #bbc2c2;
+    border: 1px solid #adb5b6;
+    padding: 25px;
+    font-size: 16px;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    color: #bbc2c2;
+    border: 1px solid #adb5b6;
+    padding: 25px;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    font-size: 15px;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    font-size: 15px;
 }
