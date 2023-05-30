@@ -1024,6 +1024,7 @@ a {
 .step {
     text-align: center;
 }
+
 .step p {
     width: 50px;
     height: 50px;
@@ -1041,11 +1042,13 @@ a {
     font-size: 18px;
     font-weight: 700;
 }
+
 .progressbar li {
     float: left;
     position: relative;
     margin-left: 80px;
 }
+
 .progressbar li::before {
     position: absolute;
     content: "";
@@ -1056,25 +1059,31 @@ a {
     left: 52px;
     border-radius: 5px;
 }
+
 .progressbar li:nth-child(1):before {
     background: #0096a2;
 }
+
 .progressbar li:nth-child(1) p {
     background: #0096a2;
     color: #fff;
 }
+
 .progressbar li:nth-child(2):before {
     background: #0096a2;
 }
+
 .progressbar li:nth-child(2) p {
     background: #0096a2;
     color: #fff;
 }
+
 .progressbar li:nth-child(3) p {
     background: #0096a2;
     color: #fff;
 }
-.progressbar li:last-child::before{
+
+.progressbar li:last-child::before {
     background: 0;
 }
 
@@ -1086,18 +1095,19 @@ a {
 
 .skillbar.html .title,
 .skillbar.css .title,
-.skillbar.js .title{
+.skillbar.js .title {
     background-color: #00a8b6;
 }
-.skillbar.html .filled ,
-.skillbar.css .filled ,
+
+.skillbar.html .filled,
+.skillbar.css .filled,
 .skillbar.js .filled {
     background-color: #00a8b6;
     border-bottom: 5px solid #0096a2;
 }
 
 .skillbar .title {
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0, 0, 0, .6);
     height: 30px;
     width: 0px;
     text-align: center;
@@ -1106,13 +1116,15 @@ a {
     border-left: 1px solid #0096a2;
     border-radius: 0;
 }
+
 .skillbar .percent {
     left: 0;
     color: #fff;
     padding-left: 5px;
 }
 
-.skillbar .percent, .skillbar .title {
+.skillbar .percent,
+.skillbar .title {
     padding: 5px;
     position: absolute;
     top: 0;
@@ -1133,4 +1145,93 @@ a {
 .swiper-wrapper {
     padding-bottom: 35px;
 }
+
 /* END ABOUT CSS HERE*/
+
+/* SERVICES PAGE CSS HERE */
+.vedio-text p {
+    color: #657273;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.single-service {
+    margin-bottom: 55px;
+}
+
+.service-area h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-size: 35px;
+    color: #184448;
+}
+
+.single-price {
+    text-align: center;
+}
+
+.single-price h2 {
+    color: 184448;
+    font-size: 24px;
+    background: #dee9ea;
+    padding: 30px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.single-price>p {
+    background: #edf4f5;
+    padding: 25px 0;
+    color: #657273;
+    font-size: 28px;
+}
+
+.single-price ul {
+    padding: 37px 0;
+}
+
+.single-price ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.single-price ul li p {
+    color: #657273;
+    font-size: 18px;
+}
+
+.single-price ul li p span {
+    font-weight: 700;
+}
+
+.single-price a {
+    color: #184448;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 30px 0;
+    display: block;
+    background: #edf4f5;
+    border-bottom: 5px solid #e2e6e6;
+}
+
+.single-price:hover h2,
+.single-price:hover > p,
+.single-price:hover a {
+    color: #fff;
+}
+
+.single-price:hover h2 {
+    background: #40c0cb;
+}
+
+.single-price:hover > p,
+.single-price:hover a {
+    background: #00a8b6;
+}
+
+.price-area .section-title h2 {
+    font-size: 35px;
+}
+
+/* END SERVICES PAGE CSS HERE */
