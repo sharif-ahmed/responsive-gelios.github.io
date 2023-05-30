@@ -909,6 +909,7 @@ a {
     color: #657273;
     font-size: 18px;
     line-height: 25px;
+    margin-bottom: 46px;
 }
 
 .system-growth-area h2 {
@@ -1011,4 +1012,125 @@ a {
     margin-left: 20px;
 }
 
+
+/* Progress Tracker v2 */
+
+.step-progress {
+    text-align: center;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.step {
+    text-align: center;
+}
+.step p {
+    width: 50px;
+    height: 50px;
+    background: #ddeff1;
+    line-height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.step label {
+    display: block;
+    margin-top: 20px;
+    color: #184448;
+    font-size: 18px;
+    font-weight: 700;
+}
+.progressbar li {
+    float: left;
+    position: relative;
+    margin-left: 80px;
+}
+.progressbar li::before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    background: #ddeff1;
+    width: 122px;
+    top: 22%;
+    left: 52px;
+    border-radius: 5px;
+}
+.progressbar li:nth-child(1):before {
+    background: #0096a2;
+}
+.progressbar li:nth-child(1) p {
+    background: #0096a2;
+    color: #fff;
+}
+.progressbar li:nth-child(2):before {
+    background: #0096a2;
+}
+.progressbar li:nth-child(2) p {
+    background: #0096a2;
+    color: #fff;
+}
+.progressbar li:nth-child(3) p {
+    background: #0096a2;
+    color: #fff;
+}
+.progressbar li:last-child::before{
+    background: 0;
+}
+
+.skillbar {
+    background-color: #ddeff1;
+    /* border-bottom: 5px solid #d2e9eb; */
+    border-radius: 0;
+}
+
+.skillbar.html .title,
+.skillbar.css .title,
+.skillbar.js .title{
+    background-color: #00a8b6;
+}
+.skillbar.html .filled ,
+.skillbar.css .filled ,
+.skillbar.js .filled {
+    background-color: #00a8b6;
+    border-bottom: 5px solid #0096a2;
+}
+
+.skillbar .title {
+    background-color: rgba(0,0,0,.6);
+    height: 30px;
+    width: 0px;
+    text-align: center;
+    left: 40px;
+    color: #f0f0f0;
+    border-left: 1px solid #0096a2;
+    border-radius: 0;
+}
+.skillbar .percent {
+    left: 0;
+    color: #fff;
+    padding-left: 5px;
+}
+
+.skillbar .percent, .skillbar .title {
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    font-weight: 400;
+}
+
+
+.skillbar .filled {
+    border-radius: 0;
+}
+
+.percent label {
+    border-left: 1px solid #0096a2;
+    padding-left: 5px;
+}
+
+.swiper-wrapper {
+    padding-bottom: 35px;
+}
 /* END ABOUT CSS HERE*/

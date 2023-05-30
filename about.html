@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/local-font.css" />
     <link rel="stylesheet" href="css/fontawesome-all.min.css" />
     <link rel="stylesheet" href="css/swiper-bundle.-8.4.7min.css" />
+    <link rel="stylesheet" href="css/an-skill-bar.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>PSD 06</title>
 </head>
@@ -130,6 +131,41 @@
                             <p>look counts success numbers</p>
                         </div>
 
+                        <!-- Progress Tracker v2 -->
+                        <div class="step-progress">
+                            <ul class="progressbar text-center">
+                                <li>
+                                    <div class="step">
+                                        <p>250</p>
+                                        <label>Projects</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="step">
+                                        <p>300</p>
+                                        <label>Awwards</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="step">
+                                        <p>500</p>
+                                        <label>Design</label>
+                                    </div>
+                                </li>
+                                <li class="active">
+                                    <div class="step">
+                                        <p>1500</p>
+                                        <label>Visitors</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="step">
+                                        <p>800</p>
+                                        <label>Experts</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -147,8 +183,25 @@
                             <p>Withour team</p>
                         </div>
                         <div class="teams">
-                            <div class="team">
-                                <img src="img/team-01.png" alt="">
+                            <div class="swiper mySwiper about-page">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="team">
+                                            <img src="img/team-01.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="team">
+                                            <img src="img/team-01.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="team">
+                                            <img src="img/team-01.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
                             </div>
                         </div>
                     </div>
@@ -164,7 +217,31 @@
                                 mollitia animi, id est laborum et dolorum fuga Et harum quidem rerum facilis est et
                                 expedita distinctio.</p>
                             <div class="skills-progressbar">
-
+                                <div class="skillbar html">
+                                    <div class="filled" data-width="90%"></div>
+                                    <!-- <span class="title">HTML</span> -->
+                                    <span class="percent"> 90% <label>Web Design</label> </span>
+                                </div>
+                                <div class="skillbar html">
+                                    <div class="filled" data-width="80%"></div>
+                                    <!-- <span class="title">HTML</span> -->
+                                    <span class="percent"> 80% <label>Web Development</label> </span>
+                                </div>
+                                <div class="skillbar html">
+                                    <div class="filled" data-width="70%"></div>
+                                    <!-- <span class="title">HTML</span> -->
+                                    <span class="percent"> 70% <label>Wordpress</label> </span>
+                                </div>
+                                <div class="skillbar html">
+                                    <div class="filled" data-width="60%"></div>
+                                    <!-- <span class="title">HTML</span> -->
+                                    <span class="percent"> 60% <label>Javascript</label> </span>
+                                </div>
+                                <div class="skillbar html">
+                                    <div class="filled" data-width="50%"></div>
+                                    <!-- <span class="title">HTML</span> -->
+                                    <span class="percent"> 50% <label>PHP</label> </span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -173,8 +250,8 @@
                     <div class="col-12">
                         <div class="system-growth-area text-center">
                             <h2>Work System Growth</h2>
-                            <div class="teams">
-                                <img src="img/team-01.png" alt="">
+                            <div>
+                                <canvas id="myChart"></canvas>
                             </div>
                         </div>
                     </div>
@@ -281,23 +358,47 @@
                                 Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
                                 'Content here, content here', making it look lik.</p>
                             <div class="testimonial-logos">
-                                <div class="testimonial-logo">
-                                    <img src="img/sm-logot.png" alt="">
-                                </div>
-                                <div class="testimonial-logo">
-                                    <img src="img/sm-logot.png" alt="">
-                                </div>
-                                <div class="testimonial-logo">
-                                    <img src="img/sm-logot.png" alt="">
-                                </div>
-                                <div class="testimonial-logo">
-                                    <img src="img/sm-logot.png" alt="">
-                                </div>
-                                <div class="testimonial-logo">
-                                    <img src="img/sm-logot.png" alt="">
-                                </div>
-                                <div class="testimonial-logo">
-                                    <img src="img/sm-logot.png" alt="">
+                                
+
+                                <div class="swiper mySwiper about-page">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-logo">
+                                                <img src="img/sm-logot.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-logo">
+                                                <img src="img/sm-logot.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-logo">
+                                                <img src="img/sm-logot.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-logo">
+                                                <img src="img/sm-logot.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-logo">
+                                                <img src="img/sm-logot.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-logo">
+                                                <img src="img/sm-logot.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="testimonial-logo">
+                                                <img src="img/sm-logot.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
                                 </div>
                             </div>
                         </div>
@@ -410,7 +511,10 @@
 
     <!-- ALL JS LINKED HERE -->
     <script src="js/jquery-3.7.0.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="js/swiper-bundle-8.4.7.min.js" type="text/javascript"></script>
+    <script src="js/an-skill-bar.js"></script>
+
 
     <!-- MODIFIED CONFIG ACTIVATION JS -->
     <script src="js/main.js" type="text/javascript"></script>
