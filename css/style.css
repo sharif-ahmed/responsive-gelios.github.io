@@ -1235,3 +1235,138 @@ a {
 }
 
 /* END SERVICES PAGE CSS HERE */
+
+/* BLOG PAGE CSS */
+.blog-post-area .blog-image img {
+    width: 100%;
+}
+.blog-page-single-blog h2 {
+    color: #184448;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.blog-page-single-blog span {
+    color: #b3bcbd;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+.blog-page-single-blog span p {
+    color: #00a8b6;
+    font-size: 14px;
+    display: inline-block;
+}
+.blog-page-single-blog p {
+    color: #657273;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.search {
+    position: relative;
+}
+.search input {
+    
+    padding: 10px 30px;
+    outline: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.search i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #172125;
+    z-index: 999999999999;
+}
+.advertisement {
+    width: 100%;
+    background: #dee9ea;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.advertisement h2 {
+    color: #184448;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+.adv-img {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.adv-img img {
+    width: 100%;
+}
+
+.categories {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.categories h2 {
+    color: #184448;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.categories ul li {
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 20px;
+}
+.categories ul li::before {
+    position: absolute;
+    content: "\f0da";
+    left: 0;
+    top: 0;
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    color: #d2e0e1;
+}
+.categories ul li a {
+    color: #657273;
+    font-size: 16px;
+    display: block;
+}
+
+.blog-post-area .footer-blog{
+    margin-bottom: 35px;
+}
+.blog-post-area .footer-title h2 {
+    color: #184448;
+    font-size: 30px;
+}
+
+.blog-post-area .tag-row span {
+    background: #dee9ea;
+}
+.blog-post-area .tag-row span a{
+    color: #184448;
+    font-size: 14px;
+    display: block;
+}
+.blog-post-area .footer-blog-img img {
+    width: 80px;
+    height: 70px;
+}
+.blog-post-area .sm-blog-text p {
+    color: #184448;
+    font-size: 14px;
+}
+.blog-post-area .sm-blog-text span {
+    color: #b3bcbd;
+    font-size: 14px;
+}
+/* END BLOG PAGE CSS */
