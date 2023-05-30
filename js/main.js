@@ -6,11 +6,8 @@ $(document).ready(function () {
     },
     pagination: {
       el: ".swiper-pagination",
-      clickable: true,
+
     },
-    slidesPerView: 5,
-    spaceBetween: 3,
-    freeMode: true,
 
   });
 
@@ -21,12 +18,13 @@ $(document).ready(function () {
   // });
 
   var testimonialSwiper = new Swiper(".mySwiper-testimonial", {
-
     pagination: {
       el: ".swiper-pagination",
-
+      clickable: true,
     },
-
+    slidesPerView: 5,
+    spaceBetween: 3,
+    freeMode: true,
   });
 
   $('.skillbar').skillbar();
