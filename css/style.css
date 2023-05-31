@@ -1401,19 +1401,24 @@ a {
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
-}
-
-.filter-menu ul li a {
-    font-family: 'Script MT';
-    display: block;
     font-size: 16px;
     color: #8f9899;
     padding: 15px 25px;
     border: 1px solid #deeaea;
     border-radius: 2px;
+    font-family: 'Script MT';
+    cursor: pointer;
 }
 
-.filter-menu ul li:hover a {
+.filter-menu ul li a {
+    display: block;
+}
+
+.filter-menu ul li:hover  {
+    color: #373939;
+    border: 1px solid #40c0cb;
+}
+.filter-menu ul li.active {
     color: #373939;
     border: 1px solid #40c0cb;
 }
@@ -1440,7 +1445,6 @@ a {
     left: 0;
     content: "";
     opacity: 0;
-    width: 100%;
     height: 100%;
 }
 
@@ -1499,7 +1503,7 @@ a {
 .pagination {
     width: 100%;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .pagination ul li {
