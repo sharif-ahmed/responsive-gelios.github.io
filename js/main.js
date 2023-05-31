@@ -1,4 +1,26 @@
 $(document).ready(function () {
+
+
+
+
+  //********* ISOTOPE JS ************
+  // init Isotope
+  var $grid = $('.grid').isotope({
+    // options
+  });
+  // filter items on button click
+  $('.filter-button-group').on('click', 'li', function () {
+    var filterValue = $(this).attr('data-filter');
+    $grid.isotope({ filter: filterValue });
+  });
+  //********* END ISOTOPE JS ************
+
+
+
+
+
+  //********* SWIPER JS ************
+
   var swiper = new Swiper(".mySwiper", {
     navigation: {
       nextEl: ".swiper-button-next",
@@ -26,11 +48,20 @@ $(document).ready(function () {
     spaceBetween: 3,
     freeMode: true,
   });
+  //********* END SWOPER JS ************
 
+
+
+  //********** SKILL BAR JS *************
   $('.skillbar').skillbar();
+  //********** END SKILL BAR JS *************
 
+
+  
+
+
+  //***************** CHART JS ****************
   const ctx = document.getElementById('myChart');
-
   new Chart(ctx, {
     type: 'line',
     data: {
@@ -49,9 +80,6 @@ $(document).ready(function () {
       }
     }
   });
-
-
-
-
+  //***************** END CHART JS ****************
 
 });
