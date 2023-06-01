@@ -1414,10 +1414,11 @@ a {
     display: block;
 }
 
-.filter-menu ul li:hover  {
+.filter-menu ul li:hover {
     color: #373939;
     border: 1px solid #40c0cb;
 }
+
 .filter-menu ul li.active {
     color: #373939;
     border: 1px solid #40c0cb;
@@ -1437,6 +1438,7 @@ a {
 .portfolio-image img {
     width: 100%;
 }
+
 .portfolio-image::before {
     width: 100%;
     background: #40aebc;
@@ -1496,7 +1498,7 @@ a {
     visibility: visible;
 }
 
-.single-project-portfolio:hover .portfolio-image::before{
+.single-project-portfolio:hover .portfolio-image::before {
     opacity: 0.8;
 }
 
@@ -1511,7 +1513,8 @@ a {
     margin-left: 8px;
     margin-right: 8px;
 }
-.pagination ul li a{
+
+.pagination ul li a {
     font-size: 20px;
     padding: 10px 20px;
     border: 1px solid #deeaea;
@@ -1520,3 +1523,110 @@ a {
     color: #b8c8c9;
     font-family: 'Script MT';
 }
+
+
+/*** CONTACT CSS HERE ***/
+
+.map-side {}
+
+.map-title {}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    min-height: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    min-height: 400px;
+}
+
+.gmap_iframe {
+    width: 100% !important;
+    height: 400px !important;
+}
+
+.contact-title h2 {
+    color: #184448;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.contact-title p {
+    color: #657273;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 35px 0;
+}
+
+.contact-area {}
+
+.contact-form {}
+
+.contact-info {}
+
+.contact-info h2{
+    color: #184448;
+    font-size: 30px;
+}
+
+.form-sign-up input {
+    display: inline-block;
+    padding: 5px 5px 100px 5px;
+    border: 1px solid #dee9ea;
+    border-radius: 5px;
+    outline: 0;
+    width: 96%;
+    margin-bottom: 20px;
+    
+}
+
+.name-form input {
+    width: 30%;
+    margin-right: 20px;
+    padding: 10px 5px;
+}
+
+.form-sign-up .btn-primary {
+    float: right;
+    margin-right: 30px;
+    padding: 15px 30px;
+    border-radius: 3px;
+    margin-top: 35px;
+}
+
+
+
+.contact-info ul li {
+    margin-bottom: 20px;
+}
+
+.single-info {
+    display: flex;
+    margin-top: 30px;
+}
+
+.single-info i {
+    color: #40c0cb;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.info-text {
+    margin-left: 10px;
+}
+
+.info-text p {
+    color: #657273;
+    font-size: 16px;
+}
+
+/*** CONTACT CSS END HERE ****/
