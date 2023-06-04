@@ -1,0 +1,303 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+    .main-menu ul li {
+        margin-left: 15px;
+    }
+    .single-slide-position .slider-text {
+        width: 50%;
+    }
+    .single-slide-position .slider-text {
+        left: 20%;
+    }
+    .step-progress {
+        width: 100%;
+    }
+
+    .our-office-area .section-title p {
+        letter-spacing: 4px;
+        margin-bottom: 75px;
+    }
+
+    .our-office-area .section-title h2 {
+        font-size: 38px;
+    }
+
+    .agency-content p {
+        font-size: 16px;
+        margin-bottom: 37px;
+    }
+
+    .team-content h4 {
+        margin-top: 5px;
+    }
+
+    .team-content span {
+        padding: 5px 0;
+    }
+
+    .team-content p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .team-social {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    footer .col-3 {
+        width: 50%;
+    }
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .container {
+        width: 300px;
+    }
+    .cta-left p {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .cta-right {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .single-blog {
+        margin-bottom: 15px;
+    }
+
+    .single-new {
+        margin-bottom: 25px;
+    }
+
+    .footer-title {
+        margin-top: 20px;
+    }
+
+    .bottom-content {
+        margin-right: 5px;
+    }
+
+    .bottom-content i {
+        margin-right: 2px;
+    }
+
+    .slider-text {
+        margin-right: 0;
+    }
+    .slider-text p {
+        font-size: 25px;
+        padding: 10px 0 40px 0;
+        margin-bottom: 35px;
+    }
+    .slider-text h4 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .single-slide {
+        text-align: center;
+    }
+
+    .main-menu {
+        padding: 10px 0;
+    }
+
+    .mean-container .mean-bar {
+        margin-bottom: 15px;
+    }
+
+    /* ABOUT PAGE CSS */
+    .success-number-area {
+        display: none;
+    }
+
+    .our-office-area .section-title h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .our-office-area .section-title p {
+        font-size: 15px;
+        letter-spacing: 3px;
+        margin-bottom: 55px;
+    }
+
+    .agency-content p {
+        text-align: center;
+    }
+
+    .system-growth-area {
+        display: none;
+    }
+
+    .team-area h2 {
+        font-size: 30px;
+        padding-bottom: 45px;
+    }
+
+    .single-team {
+        margin-bottom: 30px;
+        display: block;
+        text-align: center;
+    }
+
+    .team-image {
+        margin-right: 0;
+    }
+
+    .testimonial-area h2 {
+        font-size: 30px;
+    }
+
+    .about-slider-area  .swiper-wrapper {
+        min-height: 480px;
+    }
+
+    .about-slider-area  .single-slide-position .slider-text p {
+        font-size: 26px;
+    }
+
+    .about-slider-area  .single-slide-position .slider-text {
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        font-size: 30px;
+    }
+
+    .about-slider-area  .single-slide-position .slider-text h4 {
+        font-size: 38px;
+        margin-bottom: 25px;
+    }
+
+    .about-slider-area  .single-slide-position .slider-text a,
+    .about-slider-area  .single-slide-position .slider-text a.btn-secondary {
+        display: block;
+        margin: 20px 90px;
+    }
+
+    .pt-80 {
+        padding-top: 40px;
+    }
+    .about-slider-area  .slider-img {
+        display: none;
+    }
+
+    .our-office-area .swiper-wrapper,
+    .testimonial-area .swiper-wrapper {
+        min-height: 285px;
+    }
+
+    /* BLOG PAGE CSS */
+    .blog-page-single-blog h2 {
+        font-size: 20px;
+    }
+
+    .blog-page-single-blog p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    /* SERVICES PAGE */
+    .vedio-text p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .service-area h2 {
+        margin-bottom: 0px;
+        font-size: 30px;
+    }
+
+    /* PORTFOLIO */
+    .filter-menu ul li {
+        margin-bottom: 10px;
+    }
+    .pagination ul li a {
+        margin-bottom: 10px;
+    }
+
+    .portfolio-content {
+        padding: 5px 5px;
+    }
+
+    .portfolio-content p {
+        font-size: 15px;
+        line-height: 22px;
+        padding: 10px 0;
+    }
+
+    .portfolio-content h2 {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+
+    .portfolio-content a {
+        font-size: 12px;
+        padding: 15px 20px;
+    }
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container {
+        width: 450px;
+    }
+
+    .single-slide-position .slider-text a, .single-slide-position .slider-text a.btn-secondary {
+        display: inline-block;
+    }
+}
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 991.98px),
+only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 991.98px),
+only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 991.98px),
+only screen and (min-device-pixel-ratio: 2) and (max-width: 991.98px),
+only screen and (min-resolution: 192dpi) and (max-width: 991.98px),
+only screen and (min-resolution: 2dppx) and (max-width: 991.98px) {
+    .logo .standard-logo {
+        display: none;
+    }
+
+    .logo .retina-logo {
+        display: inline-block;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+    .logo .standard-logo {
+        display: none;
+    }
+
+    .logo .retina-logo {
+        display: inline-block;
+    }
+}

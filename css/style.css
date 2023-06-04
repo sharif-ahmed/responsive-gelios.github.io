@@ -780,15 +780,29 @@ a {
 
 /* ABOUT CSS HERE*/
 
-.single-slide-position {
+.about-slider-area .single-slide{
+	min-height: 500px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* .single-slide .single-slide-position {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.about-slider-area  .single-slide-position {
     position: relative;
 }
 
-.single-slide-position .silder-img img {
+.about-slider-area  .single-slide-position .silder-img img {
     width: 100%;
 }
 
-.single-slide-position .slider-text {
+.about-slider-area  .single-slide-position .slider-text {
     position: absolute;
     content: "";
     top: 15%;
@@ -798,26 +812,26 @@ a {
     /* transform: translateY(-50%); */
 }
 
-.single-slide-position .slider-text {
+.about-slider-area  .single-slide-position .slider-text {
     width: 45%;
 }
 
-.single-slide-position .slider-text h4 {
+.about-slider-area  .single-slide-position .slider-text h4 {
     color: #fff;
     font-size: 50px;
 }
 
-.single-slide-position .slider-text h4 span {
+.about-slider-area  .single-slide-position .slider-text h4 span {
     color: #00a8b6;
 }
 
-.single-slide-position .slider-text p {
+.about-slider-area  .single-slide-position .slider-text p {
     color: #d1d4d4;
     font-size: 30px;
     font-family: 'Script MT';
 }
 
-.single-slide-position .slider-text a {
+.about-slider-area  .single-slide-position .slider-text a {
     background: #00a8b6;
     font-size: 16px;
     color: #fff;
@@ -826,7 +840,7 @@ a {
     padding: 10px 24px 5px 24px;
 }
 
-.single-slide-position .slider-text a.btn-secondary {
+.about-slider-area  .single-slide-position .slider-text a.btn-secondary {
     background: #fff;
     font-size: 16px;
     color: #00a8b6;

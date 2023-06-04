@@ -17,7 +17,10 @@
     <link rel="stylesheet" href="css/fontawesome-all.min.css" />
     <link rel="stylesheet" href="css/swiper-bundle.-8.4.7min.css" />
     <link rel="stylesheet" href="css/an-skill-bar.css" />
+    <link rel="stylesheet" href="css/meanmenu.min.css" />
+    
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
     <title>PSD 06</title>
 </head>
 
@@ -34,18 +37,21 @@
                     </div>
                     <div class="col-9">
                         <div class="main-menu">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="services.html">Service</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="#">Shortcodes</a></li>
-                                <li><a href="contact.html">Contacts</a></li>
-                            </ul>
+                            <nav class="mobile-menu">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="services.html">Service</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="portfolio.html">Portfolio</a></li>
+                                    <li><a href="#">Shortcodes</a></li>
+                                    <li><a href="contact.html">Contacts</a></li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                 </div>
+                <div class="mobile-menu-container"></div>
             </div>
         </div>
     </header>
@@ -53,7 +59,7 @@
 
     <!-- SLIDER AREA -->
     <section>
-        <div class="slider-area fix">
+        <div class="about-slider-area fix">
             <div class="container-fluid fix">
                 <div class="row fix">
                     <div class="col-12 fix">
@@ -61,10 +67,10 @@
                         <div class="swiper mySwiper about-page">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <div class="single-slide float-right single-slide-position">
-                                        <div class="silder-img">
-                                            <img src="img/about_slidert.png" alt="">
-                                        </div>
+                                    <div class="single-slide float-right single-slide-position" style="background-image: url(img/about_slidert.png);">
+                                        <!-- <div class="silder-img">
+                                            <img src="" alt="">
+                                        </div> -->
                                         <div class="slider-text text-center">
                                             <h4>Build Great Teams <span>G</span>elios</h4>
                                             <p>Your Site Will Always Look Sharp and Utilize 100% of Screen Estate of
@@ -76,10 +82,10 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="single-slide float-right single-slide-position">
-                                        <div class="silder-img">
+                                    <div class="single-slide float-right single-slide-position" style="background-image: url(img/about_slidert.png);">
+                                        <!-- <div class="silder-img">
                                             <img src="img/about_slidert.png" alt="">
-                                        </div>
+                                        </div> -->
                                         <div class="slider-text text-center">
                                             <h4>Build Great Teams <span>G</span>elios</h4>
                                             <p>Your Site Will Always Look Sharp and Utilize 100% of Screen Estate of
@@ -91,10 +97,10 @@
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="single-slide float-right single-slide-position">
-                                        <div class="silder-img">
+                                    <div class="single-slide float-right single-slide-position" style="background-image: url(img/about_slidert.png);">
+                                        <!-- <div class="silder-img">
                                             <img src="img/about_slidert.png" alt="">
-                                        </div>
+                                        </div> -->
                                         <div class="slider-text text-center">
                                             <h4>Build Great Teams <span>G</span>elios</h4>
                                             <p>Your Site Will Always Look Sharp and Utilize 100% of Screen Estate of
@@ -512,6 +518,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="js/swiper-bundle-8.4.7.min.js" type="text/javascript"></script>
     <script src="js/an-skill-bar.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
 
 
     <!-- MODIFIED CONFIG ACTIVATION JS -->
